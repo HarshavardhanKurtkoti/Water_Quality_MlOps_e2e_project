@@ -1,0 +1,7 @@
+stages:
+  Data_Collection:
+    cmd: python src/Data_Collection.py
+    deps:
+    - src/Data_Collection.py
+    outs:
+    - data/raw
